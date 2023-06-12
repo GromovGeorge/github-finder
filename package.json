@@ -1,7 +1,7 @@
 {
   "name": "github-finder",
   "author": "GROMOV GEORGE",
-  "homepage": "",
+  "homepage": "https://github-finder-gromov.vercel.app/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
