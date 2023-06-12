@@ -1,0 +1,51 @@
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 32px;
+  transition: var(--transtion-all);
+
+  .avatar {
+    max-width: 300px;
+
+    .image {
+      width: 100%;
+      object-fit: cover;
+      border-radius: 999px;
+    }
+  }
+
+  .name {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 36px;
+    color: var(--uname-color);
+  }
+
+  .username {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    color: var(--main-color);
+    transition: var(--transtion-all);
+    text-decoration: underline;
+
+    a {
+      color: var(--main-color);
+    }
+
+    &:hover {
+      scale: 0.95;
+    }
+  }
+
+  .bio {
+    font-size: 16px;
+    color: var(--ubio-color);
+  }
+
+  .bio.empty {
+    opacity: 0.75;
+  }
+}

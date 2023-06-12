@@ -1,0 +1,16 @@
+.stats {
+  display: grid;
+  grid-template: auto / repeat(3, minmax(0, 1fr));
+  gap: 16px 32px;
+
+  padding: 16px 32px;
+  border-radius: 16px;
+
+  color: var(--stat-color);
+  background-color: var(--stat-bg);
+  transition: var(--transtion-all);
+
+  &__title {
+    color: var(--gray-200);
+  }
+}

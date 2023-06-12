@@ -1,0 +1,30 @@
+body[data-theme='light'] {
+  // bg
+  --bg-color: var(--gray-50);
+
+  // header
+  --header-color: var(--gray-300);
+
+  // switcher
+  --switcher-color: var(--gray-100);
+  --switcher-color-hover: var(--gray-300);
+
+  // search field
+  --search-bg: var(--white);
+  --search-color: var(--gray-300);
+  --search-placeholder-color: var(--gray-200);
+  --search-shadow: var(--shadow);
+
+  // stats
+  --stat-bg: var(--gray-50);
+  --stat-color: var(--gray-300);
+
+  // head
+  --ucard-bg: var(--white);
+  --ubio-color: var(--gray-200);
+  --ucard-shadow: var(--shadow);
+  --uname-color: var(--gray-300);
+
+  // details
+  --info-color: var(--gray-200);
+}

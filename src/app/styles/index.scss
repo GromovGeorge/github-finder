@@ -1,0 +1,21 @@
+@import './normalize.scss';
+@import './root.scss';
+@import './themes/dark.scss';
+@import './themes/light.scss';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'Consolas', sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--bg-color);
+  transition: background-color 0.3s ease;
+}
+
+a {
+  font: inherit;
+}
